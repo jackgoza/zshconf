@@ -18,7 +18,7 @@ source $ZSH/oh-my-zsh.sh
 ##############################################################################
 # Alias Configuration
 ##############################################################################
-alias clearlocal="git fetch -p && for branch in $(git branch -vv | grep ': gone]' | awk '{print $1}'); do git branch -D $branch; done"
+alias clearlocal='git fetch -p && for branch in $(git branch -vv | grep ": gone]" | awk "{print $1}"); do git branch -D $branch; done'
 
 ##############################################################################
 # History Configuration
